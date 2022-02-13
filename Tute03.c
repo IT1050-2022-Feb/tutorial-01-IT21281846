@@ -11,9 +11,15 @@ sum = 1+2+3+....+ 99+100 = 5050
 n -> 1-
 sum = 1+2+3+...+10 = 55 */
 
-#include <stdio.h>
-int main() {
-  
-  return 0;
+#include<stdio.h>
+int main()
+{
+int n,sum;
+	printf("Enter the Last Number : ");
+	scanf("%d",&n);
+	sum = (n * (n + 1) ) / 2;
+	printf("Sum of %d number is = %d", n, sum);
+
+return 0;
 }
 
